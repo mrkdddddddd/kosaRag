@@ -8,7 +8,7 @@ import os
 import streamlit as st
 
 from dotenv import load_dotenv
-from src.llm import get_ai_message
+from llm import get_ai_message
 
 
 st.set_page_config(
